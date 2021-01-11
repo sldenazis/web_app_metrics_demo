@@ -3,7 +3,7 @@
 ## Build and run
 
 This project uses docker-compose to build and run all the required services.
-Make sure you have docker-compose installed () and run the following command on the main directory of this project:
+Make sure you have docker-compose installed (https://docs.docker.com/compose/install/) and run the following command on the main directory of this project:
 
 ```
 docker-compose up
