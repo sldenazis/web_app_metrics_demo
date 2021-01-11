@@ -42,3 +42,11 @@ You can find the following dashboards already configured:
 It's a simple web application written in python3, using flask.
 
 The metrics are exported using [flask_prometheus_metrics](https://github.com/pilosus/flask_prometheus_metrics).
+
+## Generate traffic on the app
+
+In order to generate metrics to visualize interesting data on prometheus/grafana, you can execute this simple loop in bash:
+
+```bash
+while true; do curl localhost:5000/$RANDOM; curl localhost:5000/; curl localhost:5000/metrics; curl localhost:5000/404; curl localhost:5000/asdf; sleep 0.01; done
+```
