@@ -41,4 +41,4 @@ You can find the following dashboards already configured:
 
 It's a simple web application written in python3, using flask.
 
-The metrics are exported using (flask_prometheus_metrics)[https://github.com/pilosus/flask_prometheus_metrics].
+The metrics are exported using [flask_prometheus_metrics](https://github.com/pilosus/flask_prometheus_metrics).
