@@ -1,4 +1,4 @@
-# Sample Web App with Metrics
+# Web App with Metrics Demo
 
 ## Build and run
 
