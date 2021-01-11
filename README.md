@@ -50,3 +50,11 @@ In order to generate metrics to visualize interesting data on prometheus/grafana
 ```bash
 while true; do curl localhost:5000/$RANDOM; curl localhost:5000/; curl localhost:5000/metrics; curl localhost:5000/404; curl localhost:5000/asdf; sleep 0.01; done
 ```
+
+## Screenshots
+
+### Web App dashboard
+
+![web_app_screenshot_1](docs/images/screenshot-1.png)
+<br />
+![web_app_screenshot_2](docs/images/screenshot-2.png)
